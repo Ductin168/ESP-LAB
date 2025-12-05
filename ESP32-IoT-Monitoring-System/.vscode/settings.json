@@ -1,0 +1,10 @@
+{
+    "idf.portWin": "COM5",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "files.associations": {
+        "cmath": "cpp"
+    },
+    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe"
+}
