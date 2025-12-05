@@ -8,7 +8,7 @@ namespace {
     tflite::MicroInterpreter *interpreter = nullptr;
     TfLiteTensor *input = nullptr;
     TfLiteTensor *output = nullptr;
-    constexpr int kTensorArenaSize = 8 * 1024; 
+    constexpr int kTensorArenaSize = 16 * 1024; 
     uint8_t tensor_arena[kTensorArenaSize];
 } 
 
